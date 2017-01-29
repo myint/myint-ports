@@ -8,6 +8,7 @@ Ports
 
 - ``aqua/MenuMeters``: With macOS 10.12 support.
 - ``graphics/poppler``: Without ``gobject-introspection`` dependency.
+- ``graphics/webp``: Without ``freeglut`` and ``mesa`` dependencies.
 
 
 Installation
