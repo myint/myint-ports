@@ -15,7 +15,8 @@ Ports
 Installation
 ============
 
-- Clone this somewhere as ``root``.
+- Clone this somewhere as ``root``. For example, you could put into
+  ``/opt/local/var/macports/sources``.
 - Prepend the above cloned path into ``/opt/local/etc/macports/sources.conf``.
   Order matters since we want the custom repository to be accessed first.
 
