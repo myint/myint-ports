@@ -3,7 +3,7 @@ PortSystem 1.0
 PortGroup github 1.0
 PortGroup xcode 1.0
 
-github.setup myint MenuMeters 2.3 v
+github.setup yujitach MenuMeters 1.9.5
 categories   aqua sysutils
 maintainers  nomaintainer
 license      GPL-2
@@ -22,8 +22,8 @@ homepage    http://www.ragingmenace.com/software/menumeters
 distname    ${name}
 dist_subdir ${name}/${version}
 
-checksums rmd160 a023aea626d389a441679e8cb40a88b353f38e54 \
-          sha256 cae8ba662261d01f78c32cc213c2d632067c03d7ebc9d6ff181dbb594f6b8b9f
+checksums rmd160 214299100e47c576ccb4c6c702afef8380b79f59 \
+          sha256 fc1da6bd44df522b787c90ccded23e700429e18ffc287cb64a59e209c1203f24
 
 patchfiles patch-MenuMeters.xcodeproj-project.pbxproj.diff
 
