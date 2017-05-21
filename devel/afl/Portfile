@@ -25,6 +25,8 @@ extract.suffix      .tgz
 checksums           rmd160 170b4c304f698d6461fb9572962f8b58fc6649bd \
                     sha256 0670b13235264e688a7ccfbeeee257e9c57dcc86ead676247d92d199c194968f
 
+depends_run         port:gnuplot
+
 use_configure       no
 
 build.env           CC=${configure.cc} \
