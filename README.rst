@@ -8,6 +8,7 @@ Ports
 
 - ``aqua/cotvnc``: Newer version that has no ``xorg-xproto`` dependency.
 - ``aqua/MenuMeters``: With macOS 10.12 support.
+- ``devel/afl``: New port.
 - ``graphics/poppler``: Without ``gobject-introspection`` dependency.
 
 
