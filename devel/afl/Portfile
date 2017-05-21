@@ -17,8 +17,8 @@ long_description    American fuzzy lop is a security-oriented fuzzer that \
                     interesting test cases that trigger new internal states \
                     in the targeted binary.
 
-homepage            http://lcamtuf.coredump.cx/afl/
-master_sites        ${homepage}releases/
+homepage            http://lcamtuf.coredump.cx/afl
+master_sites        ${homepage}/releases
 extract.suffix      .tgz
 
 checksums           rmd160 170b4c304f698d6461fb9572962f8b58fc6649bd \
