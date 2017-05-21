@@ -4,7 +4,6 @@ PortSystem          1.0
 
 name                afl
 version             2.41b
-revision            1
 categories          devel security
 platforms           darwin
 maintainers         {stevenmyint.com:git @myint} openmaintainer
