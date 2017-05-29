@@ -19,8 +19,6 @@ long_description \
     across logins and restarts.
 
 homepage    http://www.ragingmenace.com/software/menumeters
-distname    ${name}
-dist_subdir ${name}/${version}
 
 checksums rmd160 214299100e47c576ccb4c6c702afef8380b79f59 \
           sha256 fc1da6bd44df522b787c90ccded23e700429e18ffc287cb64a59e209c1203f24
