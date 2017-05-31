@@ -39,8 +39,8 @@ livecheck.type      regex
 livecheck.url       ${master_sites}
 livecheck.regex     afl-(\\d+(?:\\.\\d+)*b).tgz
 
-notes {
-    WARNING: Fuzzing on MacOS X is slow because of the unusually high overhead of
-    fork() on this OS. Consider using Linux or *BSD. You can also use VirtualBox
-    (virtualbox.org) to put AFL inside a Linux or *BSD VM.
-}
+notes "
+WARNING: Fuzzing on MacOS X is slow because of the unusually high overhead of
+fork() on this OS. Consider using Linux or *BSD. You can also use VirtualBox
+(virtualbox.org) to put AFL inside a Linux or *BSD VM.
+"
