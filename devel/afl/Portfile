@@ -24,8 +24,6 @@ extract.suffix      .tgz
 checksums           rmd160 170b4c304f698d6461fb9572962f8b58fc6649bd \
                     sha256 0670b13235264e688a7ccfbeeee257e9c57dcc86ead676247d92d199c194968f
 
-depends_run         port:gnuplot
-
 use_configure       no
 
 build.env           CC=${configure.cc} \
@@ -40,3 +38,9 @@ destroot.env        PREFIX=${prefix}
 livecheck.type      regex
 livecheck.url       ${master_sites}
 livecheck.regex     afl-(\\d+(?:\\.\\d+)*b).tgz
+
+notes {
+    WARNING: Fuzzing on MacOS X is slow because of the unusually high overhead of
+    fork() on this OS. Consider using Linux or *BSD. You can also use VirtualBox
+    (virtualbox.org) to put AFL inside a Linux or *BSD VM.
+}
